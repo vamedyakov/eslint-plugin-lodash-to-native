@@ -34,6 +34,7 @@ module.exports = {
     "lodash-to-native/map": "warn"
   },
 };
+```
 ## Тестирование
 
 Для теста используется команда:
