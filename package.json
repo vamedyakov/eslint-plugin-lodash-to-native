@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-lodash-to-native",
+  "description": "_.map to native Array#map",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vamedyakov/eslint-plugin-lodash-to-native.git"
+  },
+  "homepage": "https://github.com/vamedyakov/eslint-plugin-lodash-to-native",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Vladimir Medyakov",
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "4.18.2",
+    "mocha": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  }
+}
